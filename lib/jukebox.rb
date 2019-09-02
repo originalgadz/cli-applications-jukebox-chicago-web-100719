@@ -40,7 +40,7 @@ end
    song_input = gets.strip
    songs.each.with_index(1) do |value, index|
      if song_input == value || song_input == index.to_s
-      puts value
+      puts "Playing #{value}"
       return value
      end
    end
