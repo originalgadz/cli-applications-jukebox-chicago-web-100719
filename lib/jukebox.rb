@@ -41,7 +41,6 @@ end
    songs.each.with_index(1) do |value, index|
      if song_input == value || song_input == index.to_s
       p value
-      break
      end
    end
    p "Invalid input, please try again"
