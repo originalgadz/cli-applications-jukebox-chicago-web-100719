@@ -53,6 +53,7 @@ end
  end
  
  def run (songs)
+   input = ""
    puts "Please enter a command:"
    while input != "exit" do
      input = gets.strip
