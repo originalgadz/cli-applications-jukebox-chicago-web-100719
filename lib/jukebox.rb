@@ -56,15 +56,16 @@ end
    puts "Please enter a command:"
    while input != "exit" do
      input = gets.strip
-
      if input == "help"
        help
-     elsif
-     
-     elsif
-     
-     else
-     
+     elsif input == "list"
+       list (songs)
+     elsif input == "play"
+       play (songs)
+     elsif input == "exit"
+       exit_jukebox
      end
+   end
+ end
    
 
