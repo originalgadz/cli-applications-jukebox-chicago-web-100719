@@ -52,7 +52,7 @@ end
    puts "Goodbye"
  end
  
- def run
+ def run (songs)
    puts "Please enter a command:"
    while input != "exit" do
      input = gets.strip
