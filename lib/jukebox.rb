@@ -52,5 +52,19 @@ end
    puts "Goodbye"
  end
  
+ def run
+   puts "Please enter a command:"
+   while input != "exit" do
+     input = gets.strip
+
+     if input == "help"
+       help
+     elsif
+     
+     elsif
+     
+     else
+     
+     end
    
 
