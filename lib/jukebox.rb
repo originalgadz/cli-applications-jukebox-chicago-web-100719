@@ -45,6 +45,7 @@ end
      end
    end
    puts "Invalid input, please try again"
+   return "Invalid input, please try again"
  end
  
  def exit_jukebox
