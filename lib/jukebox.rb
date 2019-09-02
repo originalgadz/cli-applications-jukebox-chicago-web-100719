@@ -40,13 +40,11 @@ end
    song_input = gets.strip
    songs.each.with_index(1) do |value, index|
      if song_input == value || song_input == index.to_s
-      puts value
-      return value
+      p value
       break
      end
    end
-   puts "Invalid input, please try again"
-   return "Invalid input, please try again"
+   p "Invalid input, please try again"
  end
  
  def exit_jukebox
